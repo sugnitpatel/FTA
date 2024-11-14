@@ -237,6 +237,39 @@ img {
   color: #01205C;
 
 }
+.bg-gray-5{
+  background: rgba(217, 217, 217, 0.05) !important;
+}
+.bg-gray-10{
+  background: rgba(217, 217, 217, 0.1) !important;
+}
+.bg-gray-20{
+  background: rgba(217, 217, 217, 0.2) !important;
+}
+.bg-gray-30{
+  background: rgba(217, 217, 217, 0.3) !important;
+}
+.bg-gray-40{
+  background: rgba(217, 217, 217, 0.4) !important;
+}
+.bg-gray-50{
+  background: rgba(217, 217, 217, 0.5) !important;
+}
+.bg-gray-60{
+  background: rgba(217, 217, 217, 0.6) !important;
+}
+.bg-gray-70{
+  background: rgba(217, 217, 217, 0.7) !important;
+}
+.bg-gray-80{
+  background: rgba(217, 217, 217, 0.8) !important;
+}
+.bg-gray-90{
+  background: rgba(217, 217, 217, 0.9) !important;
+}
+.bg-gray-100{
+  background: rgba(217, 217, 217, 1) !important;
+}
 
 /* 
 .btn-outline-primary:focus-visible {
@@ -771,11 +804,11 @@ main {
   background: rgba(209, 211, 212, 50%);
 }
 
-.bg-section .containt-box:nth-child(4n + 2) .img-aria {
+.bg-section .containt-box:nth-child(2n + 2) .img-aria {
   order: 1;
 }
 
-.bg-section .containt-box:nth-child(4n + 2) .cont-aria {
+.bg-section .containt-box:nth-child(2n + 2) .cont-aria {
   order: 2;
 }
 
@@ -954,7 +987,8 @@ color: #000000;
 font-size: 20px;
 font-weight: 700;
 text-transform: uppercase;
-text-align: left;padding-top: 10px;
+text-align: left;
+padding-top: 10px;
 
 }
 .ourteam-box img{
@@ -1174,6 +1208,9 @@ text-align: left;padding-top: 10px;
   .containt-box img {
     max-height: 300px;
     object-fit: cover;
+  }
+  .ourteam-box p{
+    text-align: center;;
   }
 
 
